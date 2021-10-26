@@ -23,15 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81103430-53fb-4a27-80d0-e75f95e6dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day17_Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day17_GoogleSearchStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day18_parametrizing_ff_using_string.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day18_scenario_outline_1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/day18_scenario_outline_2.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day17_GoogleSearchStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day17_GoogleSearchStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/first_feature_file.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/first_feature_file.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/first_feature_file.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/first_feature_file.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day17_GoogleSearchStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day17_GoogleSearchStepDefinitions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Scenario: TC02_teapot search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -138,25 +139,30 @@
       <screen x="61" y="25" width="2499" height="1415" />
     </state>
     <state x="535" y="512" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1635084613524" />
-    <state width="2508" height="612" key="GridCell.Tab.0.bottom" timestamp="1635093708305">
+    <state width="2508" height="259" key="GridCell.Tab.0.bottom" timestamp="1635212442777">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="612" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635093708305" />
-    <state width="2508" height="612" key="GridCell.Tab.0.center" timestamp="1635093708302">
+    <state width="2508" height="259" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635212442777" />
+    <state width="2508" height="259" key="GridCell.Tab.0.center" timestamp="1635212442775">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="612" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635093708302" />
-    <state width="2508" height="612" key="GridCell.Tab.0.left" timestamp="1635093708300">
+    <state width="2508" height="259" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635212442775" />
+    <state width="2508" height="259" key="GridCell.Tab.0.left" timestamp="1635212442774">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="612" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635093708300" />
-    <state width="2508" height="612" key="GridCell.Tab.0.right" timestamp="1635093708304">
+    <state width="2508" height="259" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635212442774" />
+    <state width="2508" height="259" key="GridCell.Tab.0.right" timestamp="1635212442776">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="612" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635093708304" />
-    <state x="272" y="282" key="SettingsEditor" timestamp="1635019939442">
-      <screen x="61" y="25" width="2499" height="1415" />
+    <state width="2508" height="259" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635212442776" />
+    <state x="216" y="262" key="SettingsEditor" timestamp="1635204893127">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="216" y="262" key="SettingsEditor/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635204893127" />
     <state x="272" y="282" key="SettingsEditor/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1635019939442" />
+    <state x="861" y="324" width="838" height="1032" key="search.everywhere.popup" timestamp="1635204460706">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="861" y="324" width="838" height="1032" key="search.everywhere.popup/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635204460706" />
   </component>
 </project>
