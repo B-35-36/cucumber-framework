@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "./src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@scenario_outline_capital_search",
+        tags = "@smoke and @regression",
         dryRun = false
 )
 public class Runner {
