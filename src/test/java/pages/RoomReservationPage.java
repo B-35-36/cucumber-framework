@@ -54,7 +54,10 @@ public class RoomReservationPage {
     @FindBy(id = "btnSubmit")
     public WebElement submitButton;
 
+    @FindBy(xpath = "//div[@class='bootbox-body']")
+    public WebElement successMessage;
 
-
+    @FindBy(xpath = "//button[@data-bb-handler='ok']")
+    public WebElement okButton;
 
 }
