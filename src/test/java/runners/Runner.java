@@ -6,10 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "./src/test/resources/features",
-        glue = "stepdefinitions",
-        tags = "@smoke and @regression",
-        dryRun = false
+        features = "./src/test/resources/features",//MUST
+        glue = "stepdefinitions",//MUST
+        tags = "@room_reservation",//OPTIONAL. WITHOUT TAGS, RUNNER RUNS ALL FEATURES
+        dryRun = true//OPTIONAL.
+        // WITHOUT dryRun(dryRun=false is default,
+        // we can not check completion error without seeing the browser
 )
 public class Runner {
 }

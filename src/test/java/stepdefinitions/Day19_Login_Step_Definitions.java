@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -8,6 +9,8 @@ import pages.DefaultPage;
 import pages.LoginPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+
+import java.util.List;
 
 public class Day19_Login_Step_Definitions {
 
@@ -50,6 +53,23 @@ public class Day19_Login_Step_Definitions {
     @Then("verify the {string} is displayed")
     public void verify_the_is_displayed(String string) {
         Assert.assertEquals(defaultPage.userId.getText(),string);
+    }
+
+
+    @Given("user enters manager_id and manager_password")
+    public void user_enters_manager_id_and_manager_password(DataTable credentials) {
+
+        List<String> managerCredentials = credentials.row(0);//Test data is on the first row
+
+        System.out.println(managerCredentials);//[manager, Manager1!]
+        System.out.println(managerCredentials.get(0));//manager
+        System.out.println(managerCredentials.get(1));//Manager1!
+
+        loginPage.username.sendKeys(managerCredentials.get(0));
+        loginPage.password.sendKeys(managerCredentials.get(1));
+
+
+
     }
 
 }
