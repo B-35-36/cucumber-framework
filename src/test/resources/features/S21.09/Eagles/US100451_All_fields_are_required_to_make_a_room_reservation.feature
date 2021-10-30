@@ -11,6 +11,7 @@ Feature: FE1009_Room_Reservation
   Scenario: TC02_user_should_navigate_room_reservation_page
     Given user navigates to the create_room_reservation page
 
+#    Sending data using DataTable in cucumber
   Scenario: TC03_user_should_book_a_reservation
     Given user enters all required fields
     |idUser |idHotelRoom|price|dateStart |dateEnd   |adultAmount|childrenAmount|contactNameSurname|contactPhone  |contactEmail  |notes    |
@@ -19,3 +20,4 @@ Feature: FE1009_Room_Reservation
     And user clicks on the paid_checkbox
     And user clicks on the save_button
     Then user verifies the success_message
+    Then close the application

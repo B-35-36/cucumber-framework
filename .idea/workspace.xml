@@ -23,12 +23,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81103430-53fb-4a27-80d0-e75f95e6dc83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RoomReservationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RoomReservationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day20_Room_Reservation_Step_Definitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day20_Room_Reservation_Step_Definitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day20_Room_Reservation_Step_Definitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day20_Room_Reservation_Step_Definitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/S21.08/Eagles/US100450_user_should_login_using_manager_credentials.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/day18_parametrizing_ff_using_string.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/day18_scenario_outline_1.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/day18_scenario_outline_2.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/first_feature_file.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DefaultPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GooglePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/RoomReservationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day17_GoogleSearchStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day19_Login_Step_Definitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day20_Room_Reservation_Step_Definitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,30 +213,30 @@
       <screen x="61" y="25" width="2499" height="1415" />
     </state>
     <state x="535" y="512" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1635084613524" />
-    <state width="2508" height="107" key="GridCell.Tab.0.bottom" timestamp="1635620089781">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2028" height="112" key="GridCell.Tab.0.bottom" timestamp="1635622443642">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
-    <state width="2508" height="107" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635620089781" />
+    <state width="2508" height="112" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635622286326" />
     <state width="1541" height="211" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798009" />
-    <state width="1541" height="211" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635301544290" />
-    <state width="2508" height="107" key="GridCell.Tab.0.center" timestamp="1635620089780">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2028" height="112" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635622443642" />
+    <state width="2028" height="112" key="GridCell.Tab.0.center" timestamp="1635622443641">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
-    <state width="2508" height="107" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635620089780" />
+    <state width="2508" height="112" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635622286325" />
     <state width="1541" height="211" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798008" />
-    <state width="1541" height="211" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635301544289" />
-    <state width="2508" height="107" key="GridCell.Tab.0.left" timestamp="1635620089779">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2028" height="112" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635622443641" />
+    <state width="2028" height="112" key="GridCell.Tab.0.left" timestamp="1635622443641">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
-    <state width="2508" height="107" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635620089779" />
+    <state width="2508" height="112" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635622286324" />
     <state width="1541" height="211" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798007" />
-    <state width="1541" height="211" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635301544289" />
-    <state width="2508" height="107" key="GridCell.Tab.0.right" timestamp="1635620089781">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2028" height="112" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635622443641" />
+    <state width="2028" height="112" key="GridCell.Tab.0.right" timestamp="1635622443642">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
-    <state width="2508" height="107" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635620089781" />
+    <state width="2508" height="112" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635622286325" />
     <state width="1541" height="211" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798008" />
-    <state width="1541" height="211" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635301544289" />
+    <state width="2028" height="112" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635622443642" />
     <state x="216" y="262" key="SettingsEditor" timestamp="1635617376042">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

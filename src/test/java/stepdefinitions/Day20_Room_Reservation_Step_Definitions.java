@@ -57,7 +57,6 @@ public class Day20_Room_Reservation_Step_Definitions {
         roomReservationPage.notes.sendKeys(testData.get(10));
     }
 
-
     @And("user clicks on the approved_checkbox")
     public void user_clicks_on_the_approved_checkbox() {
         roomReservationPage.isApproved.click();
@@ -76,6 +75,7 @@ public class Day20_Room_Reservation_Step_Definitions {
         String successMessage = roomReservationPage.successMessage.getText();
         String expectedSuccessMessage="RoomReservation was inserted successfully";
         Assert.assertEquals(expectedSuccessMessage,successMessage);
+        roomReservationPage.okButton.click();
     }
 
 }

@@ -6,6 +6,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin = {
+                "html:target/default-cucumber-reports.html",
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml"
+        },
         features = "./src/test/resources/features",//MUST
         glue = "stepdefinitions",//MUST
         tags = "@room_reservation",//OPTIONAL. WITHOUT TAGS, RUNNER RUNS ALL FEATURES
