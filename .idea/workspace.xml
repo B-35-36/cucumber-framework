@@ -23,12 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81103430-53fb-4a27-80d0-e75f95e6dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day20_Room_Reservation_Step_Definitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RoomReservationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DefaultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DefaultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day19_Login_Step_Definitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day19_Login_Step_Definitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day20_Room_Reservation_Step_Definitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day20_Room_Reservation_Step_Definitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DefaultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/DefaultPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day20_Room_Reservation_Step_Definitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day20_Room_Reservation_Step_Definitions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC01_user_should_login_with_manager_profile">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: first_feature_file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first_feature_file.feature" />
@@ -141,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC01_user_should_login_with_manager_profile" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: TC01_user_should_login_with_manager_profile" />
         <item itemvalue="Cucumber Java.Feature: first_feature_file" />
         <item itemvalue="Cucumber Java.Scenario: TC02_teapot search" />
       </list>
@@ -176,28 +180,28 @@
       <screen x="61" y="25" width="2499" height="1415" />
     </state>
     <state x="535" y="512" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1635084613524" />
-    <state width="2508" height="922" key="GridCell.Tab.0.bottom" timestamp="1635610079655">
+    <state width="2508" height="355" key="GridCell.Tab.0.bottom" timestamp="1635612020322">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="922" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635610079655" />
+    <state width="2508" height="355" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635612020322" />
     <state width="1541" height="211" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798009" />
     <state width="1541" height="211" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635301544290" />
-    <state width="2508" height="922" key="GridCell.Tab.0.center" timestamp="1635610079649">
+    <state width="2508" height="355" key="GridCell.Tab.0.center" timestamp="1635612020319">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="922" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635610079649" />
+    <state width="2508" height="355" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635612020319" />
     <state width="1541" height="211" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798008" />
     <state width="1541" height="211" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635301544289" />
-    <state width="2508" height="922" key="GridCell.Tab.0.left" timestamp="1635610079647">
+    <state width="2508" height="355" key="GridCell.Tab.0.left" timestamp="1635612020317">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="922" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635610079647" />
+    <state width="2508" height="355" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635612020317" />
     <state width="1541" height="211" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798007" />
     <state width="1541" height="211" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635301544289" />
-    <state width="2508" height="922" key="GridCell.Tab.0.right" timestamp="1635610079649">
+    <state width="2508" height="355" key="GridCell.Tab.0.right" timestamp="1635612020320">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2508" height="922" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635610079649" />
+    <state width="2508" height="355" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635612020320" />
     <state width="1541" height="211" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798008" />
     <state width="1541" height="211" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635301544289" />
     <state x="216" y="262" key="SettingsEditor" timestamp="1635204893127">
