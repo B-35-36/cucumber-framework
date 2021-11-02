@@ -1,5 +1,6 @@
-@manager_login_test
+@login_test
 Feature: Login_Functionality_With_Right_Credentials
+  @manager_login_test
   Scenario Outline: login_with_manager_credentials
     Given user is on the application page
     And user enters manager id "<manager_id>"
