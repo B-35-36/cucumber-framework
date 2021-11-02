@@ -23,11 +23,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81103430-53fb-4a27-80d0-e75f95e6dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/FailedScenarioRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day22_Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RegressionTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/SmokeTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/S21.08/Eagles/US100450_user_should_login_using_manager_credentials.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/S21.08/Eagles/US100450_user_should_login_using_manager_credentials.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failedRerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failedRerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-report/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/S21.08/Eagles/US100450_user_should_login_using_manager_credentials.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/S21.08/Eagles/US100450_user_should_login_using_manager_credentials.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DefaultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/DefaultPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GooglePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/GooglePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/RoomReservationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/RoomReservationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/FailedScenarioRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/FailedScenarioRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day17_GoogleSearchStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day17_GoogleSearchStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day19_Login_Step_Definitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day19_Login_Step_Definitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day20_Room_Reservation_Step_Definitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day20_Room_Reservation_Step_Definitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Reusable_Step_Definitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Reusable_Step_Definitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,43 +211,44 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="535" y="512" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1635084613524">
-      <screen x="61" y="25" width="2499" height="1415" />
+    <state x="486" y="496" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1635814502890">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="486" y="496" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635814502890" />
     <state x="535" y="512" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1635084613524" />
     <state x="981" y="570" width="597" height="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1635697372898">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="981" y="570" width="597" height="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635697372898" />
-    <state width="2508" height="220" key="GridCell.Tab.0.bottom" timestamp="1635811272318">
+    <state width="2508" height="787" key="GridCell.Tab.0.bottom" timestamp="1635812045679">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2508" height="258" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635698725345" />
-    <state width="2508" height="220" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635811272318" />
+    <state width="2508" height="787" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635812045679" />
     <state width="1573" height="258" key="GridCell.Tab.0.bottom/2560.25.1920.1055/65.25.2495.1415@65.25.2495.1415" timestamp="1635699133972" />
     <state width="1541" height="211" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798009" />
     <state width="1573" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635695535616" />
-    <state width="2508" height="220" key="GridCell.Tab.0.center" timestamp="1635811272317">
+    <state width="2508" height="787" key="GridCell.Tab.0.center" timestamp="1635812045678">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2508" height="258" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635698725343" />
-    <state width="2508" height="220" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635811272317" />
+    <state width="2508" height="787" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635812045678" />
     <state width="1573" height="258" key="GridCell.Tab.0.center/2560.25.1920.1055/65.25.2495.1415@65.25.2495.1415" timestamp="1635699133971" />
     <state width="1541" height="211" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798008" />
     <state width="1573" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635695535613" />
-    <state width="2508" height="220" key="GridCell.Tab.0.left" timestamp="1635811272316">
+    <state width="2508" height="787" key="GridCell.Tab.0.left" timestamp="1635812045678">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2508" height="258" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635698725342" />
-    <state width="2508" height="220" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635811272316" />
+    <state width="2508" height="787" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635812045678" />
     <state width="1573" height="258" key="GridCell.Tab.0.left/2560.25.1920.1055/65.25.2495.1415@65.25.2495.1415" timestamp="1635699133971" />
     <state width="1541" height="211" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798007" />
     <state width="1573" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635695535612" />
-    <state width="2508" height="220" key="GridCell.Tab.0.right" timestamp="1635811272317">
+    <state width="2508" height="787" key="GridCell.Tab.0.right" timestamp="1635812045679">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2508" height="258" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635698725344" />
-    <state width="2508" height="220" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635811272317" />
+    <state width="2508" height="787" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635812045679" />
     <state width="1573" height="258" key="GridCell.Tab.0.right/2560.25.1920.1055/65.25.2495.1415@65.25.2495.1415" timestamp="1635699133972" />
     <state width="1541" height="211" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798008" />
     <state width="1573" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635695535615" />

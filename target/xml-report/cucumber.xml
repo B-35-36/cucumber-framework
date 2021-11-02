@@ -1,2 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.004"/>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="113.329">
+    <testcase classname="Login_Functionality_With_Right_Credentials" name="login_with_manager_credentials" time="30.225">
+        <system-out><![CDATA[Given user is on the application page.......................................passed
+And user enters manager id "manager"........................................passed
+And user enters manager password "Manager1!"................................passed
+When user clicks on the login button........................................passed
+Then verify the "manager" is displayed......................................passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login_Functionality_With_Right_Credentials" name="login_with_manager_credentials_2" time="24.088">
+        <system-out><![CDATA[Given user is on the application page.......................................passed
+And user enters manager id "manager2".......................................passed
+And user enters manager password "Manager2!"................................passed
+When user clicks on the login button........................................passed
+Then verify the "manager2" is displayed.....................................passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login_Functionality_With_Right_Credentials" name="login_with_manager_credentials_3" time="29.214">
+        <system-out><![CDATA[Given user is on the application page.......................................passed
+And user enters manager id "manager3".......................................passed
+And user enters manager password "Manager3!"................................passed
+When user clicks on the login button........................................passed
+Then verify the "manager3" is displayed.....................................passed
+Then close the application..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login_Functionality_With_Right_Credentials" name="login_with_admin_credentials" time="29.567">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(@class, 'username')]&quot;}&#10;  (Session info: chrome=95.0.4638.54)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'techproeds-iMac.local', ip: '192.168.0.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /var/folders/8v/_pmlnm4j4jx...}, goog:chromeOptions: {debuggerAddress: localhost:61591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 398d415f3e2435aeaab05a2fedab7a50&#10;*** Element info: {Using=xpath, value=//span[contains(@class, 'username')]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user is on the application page.......................................passed
+And user enters manager id "admin"..........................................passed
+And user enters manager password "Techproed123".............................passed
+When user clicks on the login button........................................passed
+Then verify the "admin" is displayed........................................failed
+Then close the application..................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(@class, 'username')]"}
+  (Session info: chrome=95.0.4638.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'techproeds-iMac.local', ip: '192.168.0.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /var/folders/8v/_pmlnm4j4jx...}, goog:chromeOptions: {debuggerAddress: localhost:61591}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 398d415f3e2435aeaab05a2fedab7a50
+*** Element info: {Using=xpath, value=//span[contains(@class, 'username')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at stepdefinitions.Day19_Login_Step_Definitions.verify_the_is_displayed(Day19_Login_Step_Definitions.java:55)
+	at ✽.verify the "admin" is displayed(file:///Users/techproed/cucumber-framework/./src/test/resources/features/S21.08/Eagles/US100450_user_should_login_using_manager_credentials.feature:35)
+]]></failure>
+    </testcase>
+</testsuite>
