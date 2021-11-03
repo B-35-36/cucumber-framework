@@ -24,23 +24,32 @@
   <component name="ChangeListManager">
     <list default="true" id="81103430-53fb-4a27-80d0-e75f95e6dc83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-framework-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-framework-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/embeddings/embedding_567794439.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_611177262.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_611177262.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_1359083495.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_1359083495.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_1655128791.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_1655128791.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_1705009081.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_1705009081.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day19_Login_Step_Definitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Day19_Login_Step_Definitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failedRerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failedRerun.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Google_Search_Functionality #3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Google_Search_Functionality #3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Login_Functionality_With_Right_Credentials.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Login_Functionality_With_Right_Credentials.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DefaultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/DefaultPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GooglePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/GooglePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/RoomReservationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/RoomReservationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/FailedScenarioRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/FailedScenarioRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/RegressionTestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/RegressionTestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/SmokeTestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/SmokeTestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day17_GoogleSearchStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day17_GoogleSearchStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day19_Login_Step_Definitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day19_Login_Step_Definitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day20_Room_Reservation_Step_Definitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Day20_Room_Reservation_Step_Definitions.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Reusable_Step_Definitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/Reusable_Step_Definitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ConfigReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReusableMethods.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +82,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JUnit.FailedScenarioRunner">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: first_feature_file" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/first_feature_file.feature" />
@@ -169,8 +179,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Runner" />
         <item itemvalue="JUnit.FailedScenarioRunner" />
-        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: TC01_user_should_login_with_manager_profile" />
         <item itemvalue="Cucumber Java.Scenario: TC03_user_should_book_a_reservation" />
         <item itemvalue="Cucumber Java.Feature: first_feature_file" />
@@ -210,44 +220,45 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="981" y="570" width="597" height="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635697372898" />
-    <state width="2508" height="787" key="GridCell.Tab.0.bottom" timestamp="1635812045679">
+    <state width="2508" height="642" key="GridCell.Tab.0.bottom" timestamp="1635897890840">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2508" height="258" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635698725345" />
-    <state width="2508" height="787" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635812045679" />
+    <state width="2508" height="642" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635897890840" />
     <state width="1573" height="258" key="GridCell.Tab.0.bottom/2560.25.1920.1055/65.25.2495.1415@65.25.2495.1415" timestamp="1635699133972" />
     <state width="1541" height="211" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798009" />
     <state width="1573" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635695535616" />
-    <state width="2508" height="787" key="GridCell.Tab.0.center" timestamp="1635812045678">
+    <state width="2508" height="642" key="GridCell.Tab.0.center" timestamp="1635897890839">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2508" height="258" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635698725343" />
-    <state width="2508" height="787" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635812045678" />
+    <state width="2508" height="642" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635897890839" />
     <state width="1573" height="258" key="GridCell.Tab.0.center/2560.25.1920.1055/65.25.2495.1415@65.25.2495.1415" timestamp="1635699133971" />
     <state width="1541" height="211" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798008" />
     <state width="1573" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635695535613" />
-    <state width="2508" height="787" key="GridCell.Tab.0.left" timestamp="1635812045678">
+    <state width="2508" height="642" key="GridCell.Tab.0.left" timestamp="1635897890838">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2508" height="258" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635698725342" />
-    <state width="2508" height="787" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635812045678" />
+    <state width="2508" height="642" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635897890838" />
     <state width="1573" height="258" key="GridCell.Tab.0.left/2560.25.1920.1055/65.25.2495.1415@65.25.2495.1415" timestamp="1635699133971" />
     <state width="1541" height="211" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798007" />
     <state width="1573" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635695535612" />
-    <state width="2508" height="787" key="GridCell.Tab.0.right" timestamp="1635812045679">
+    <state width="2508" height="642" key="GridCell.Tab.0.right" timestamp="1635897890839">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2508" height="258" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635698725344" />
-    <state width="2508" height="787" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635812045679" />
+    <state width="2508" height="642" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635897890839" />
     <state width="1573" height="258" key="GridCell.Tab.0.right/2560.25.1920.1055/65.25.2495.1415@65.25.2495.1415" timestamp="1635699133972" />
     <state width="1541" height="211" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798008" />
     <state width="1573" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635695535615" />
-    <state x="216" y="262" key="SettingsEditor" timestamp="1635808997777">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="279" y="282" key="SettingsEditor" timestamp="1635895171533">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state x="216" y="262" key="SettingsEditor/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635617376042" />
     <state x="216" y="262" key="SettingsEditor/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635808997777" />
     <state x="272" y="282" key="SettingsEditor/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1635019939442" />
+    <state x="279" y="282" key="SettingsEditor/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1635895171533" />
     <state x="861" y="324" width="838" height="1032" key="search.everywhere.popup" timestamp="1635607607487">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

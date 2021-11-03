@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-02T02:50:15.387Z",
+        "start_timestamp": "2021-11-03T00:04:52.100Z",
         "before": [
           {
             "result": {
-              "duration": 1762000,
+              "duration": 2000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,13 @@
             }
           }
         ],
-        "line": 14,
-        "name": "login_with_manager_credentials",
+        "line": 5,
+        "name": "TC01_user_should_login_with_manager_profile",
         "description": "",
-        "id": "login-functionality-with-right-credentials;login-with-manager-credentials;manager-data;2",
+        "id": "fe1009-room-reservation;tc01-user-should-login-with-manager-profile",
         "after": [
           {
             "result": {
-              "duration": 793000,
               "status": "passed"
             },
             "match": {
@@ -31,14 +30,14 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 13510933000,
+              "duration": 12096000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "user is on the application page",
             "match": {
               "location": "stepdefinitions.Day19_Login_Step_Definitions.user_is_on_the_application_page()"
@@ -47,46 +46,36 @@
           },
           {
             "result": {
-              "duration": 150641000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enters manager id \"manager\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"manager\"",
-                  "offset": 23
-                }
-              ],
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_enters_manager_id(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 60462000,
+              "duration": 223000000,
               "status": "passed"
             },
             "line": 7,
-            "name": "user enters manager password \"Manager1!\"",
+            "name": "user enters manager_id and manager_password",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Manager1!\"",
-                  "offset": 29
-                }
-              ],
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_enters_manager_password(java.lang.String)"
+              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_enters_manager_id_and_manager_password(io.cucumber.datatable.DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "manager",
+                  "Manager1!"
+                ]
+              }
+            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 6425583000,
+              "duration": 6324000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
             "name": "user clicks on the login button",
             "match": {
               "location": "stepdefinitions.Day19_Login_Step_Definitions.user_clicks_on_the_login_button()"
@@ -95,10 +84,10 @@
           },
           {
             "result": {
-              "duration": 37918000,
+              "duration": 28000000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 11,
             "name": "verify the \"manager\" is displayed",
             "match": {
               "arguments": [
@@ -113,429 +102,35 @@
           },
           {
             "result": {
-              "duration": 193665000,
+              "duration": 983000000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "close the application",
+            "line": 12,
+            "name": "take the screenshot",
             "match": {
-              "location": "stepdefinitions.Day17_GoogleSearchStepDefinitions.close_the_application()"
+              "location": "stepdefinitions.Reusable_Step_Definitions.take_the_screenshot()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@login_test"
+            "name": "@room_reservation"
           },
           {
-            "name": "@manager_login_test"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-02T02:50:35.792Z",
-        "before": [
-          {
-            "result": {
-              "duration": 201000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "login_with_manager_credentials",
-        "description": "",
-        "id": "login-functionality-with-right-credentials;login-with-manager-credentials;manager-data;3",
-        "after": [
-          {
-            "result": {
-              "duration": 471000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 10196107000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is on the application page",
-            "match": {
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_is_on_the_application_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 132607000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enters manager id \"manager2\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"manager2\"",
-                  "offset": 23
-                }
-              ],
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_enters_manager_id(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 74737000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user enters manager password \"Manager2!\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Manager2!\"",
-                  "offset": 29
-                }
-              ],
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_enters_manager_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 11010973000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user clicks on the login button",
-            "match": {
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_clicks_on_the_login_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 32079000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "verify the \"manager2\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"manager2\"",
-                  "offset": 11
-                }
-              ],
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.verify_the_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 198606000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "close the application",
-            "match": {
-              "location": "stepdefinitions.Day17_GoogleSearchStepDefinitions.close_the_application()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login_test"
-          },
-          {
-            "name": "@manager_login_test"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-02T02:50:57.444Z",
-        "before": [
-          {
-            "result": {
-              "duration": 82000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "login_with_manager_credentials",
-        "description": "",
-        "id": "login-functionality-with-right-credentials;login-with-manager-credentials;manager-data;4",
-        "after": [
-          {
-            "result": {
-              "duration": 72000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 9244314000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is on the application page",
-            "match": {
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_is_on_the_application_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 113419000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enters manager id \"manager3\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"manager3\"",
-                  "offset": 23
-                }
-              ],
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_enters_manager_id(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 55448000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user enters manager password \"Manager3!\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Manager3!\"",
-                  "offset": 29
-                }
-              ],
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_enters_manager_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 10681095000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user clicks on the login button",
-            "match": {
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_clicks_on_the_login_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 40902000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "verify the \"manager3\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"manager3\"",
-                  "offset": 11
-                }
-              ],
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.verify_the_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 194859000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "close the application",
-            "match": {
-              "location": "stepdefinitions.Day17_GoogleSearchStepDefinitions.close_the_application()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login_test"
-          },
-          {
-            "name": "@manager_login_test"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-02T02:51:17.780Z",
-        "before": [
-          {
-            "result": {
-              "duration": 107000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 41,
-        "name": "login_with_admin_credentials",
-        "description": "",
-        "id": "login-functionality-with-right-credentials;login-with-admin-credentials;admin-data;2",
-        "after": [
-          {
-            "result": {
-              "duration": 77000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 9769126000,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "user is on the application page",
-            "match": {
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_is_on_the_application_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 124634000,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "user enters manager id \"admin\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"admin\"",
-                  "offset": 23
-                }
-              ],
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_enters_manager_id(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 56952000,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "user enters manager password \"Techproed123\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Techproed123\"",
-                  "offset": 29
-                }
-              ],
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_enters_manager_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 926415000,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "user clicks on the login button",
-            "match": {
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.user_clicks_on_the_login_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[contains(@class, \u0027username\u0027)]\"}\n  (Session info: chrome\u003d95.0.4638.54)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027techproeds-iMac.local\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002712.0.1\u0027, java.version: \u002717\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.54 (d31a821ec901f..., userDataDir: /var/folders/8v/_pmlnm4j4jx...}, goog:chromeOptions: {debuggerAddress: localhost:63420}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5307217cdac18b714812f132ccb90b3b\n*** Element info: {Using\u003dxpath, value\u003d//span[contains(@class, \u0027username\u0027)]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)\n\tat stepdefinitions.Day19_Login_Step_Definitions.verify_the_is_displayed(Day19_Login_Step_Definitions.java:55)\n\tat ✽.verify the \"admin\" is displayed(file:///Users/techproed/cucumber-framework/./src/test/resources/features/S21.08/Eagles/US100450_user_should_login_using_manager_credentials.feature:35)\n",
-              "duration": 15070757000,
-              "status": "failed"
-            },
-            "line": 35,
-            "name": "verify the \"admin\" is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"admin\"",
-                  "offset": 11
-                }
-              ],
-              "location": "stepdefinitions.Day19_Login_Step_Definitions.verify_the_is_displayed(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 80000,
-              "status": "skipped"
-            },
-            "line": 36,
-            "name": "close the application",
-            "match": {
-              "location": "stepdefinitions.Day17_GoogleSearchStepDefinitions.close_the_application()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login_test"
-          },
-          {
-            "name": "@admin_login_test"
+            "name": "@wip"
           }
         ]
       }
     ],
-    "name": "Login_Functionality_With_Right_Credentials",
+    "name": "FE1009_Room_Reservation",
     "description": "",
-    "id": "login-functionality-with-right-credentials",
+    "id": "fe1009-room-reservation",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/S21.08/Eagles/US100450_user_should_login_using_manager_credentials.feature",
+    "uri": "file:src/test/resources/features/S21.09/Eagles/US100451_All_fields_are_required_to_make_a_room_reservation.feature",
     "tags": [
       {
-        "name": "@login_test",
+        "name": "@room_reservation",
         "type": "Tag",
         "location": {
           "line": 1,
