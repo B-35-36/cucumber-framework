@@ -11,11 +11,11 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
                 "junit:target/xml-report/cucumber.xml",
-                "rerun:target/failedRerun.txt"
+                "rerun:target/failedRerun.txt",
         },
         features = "./src/test/resources/features",//MUST
         glue = "stepdefinitions",//MUST
-        tags = "@excel_automation",//OPTIONAL. WITHOUT TAGS, RUNNER RUNS ALL FEATURES
+        tags = "@data_tables_hw",//OPTIONAL. WITHOUT TAGS, RUNNER RUNS ALL FEATURES
         dryRun = false//OPTIONAL.
         // WITHOUT dryRun(dryRun=false is default,
         // we can not check completion error without seeing the browser
