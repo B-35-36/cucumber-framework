@@ -186,7 +186,7 @@ public void user_enters_all_table_required_fields_and_verifies_the_data_creation
                 ReusableMethods.waitFor(1);
                 Assert.assertTrue(dataTablesPage.nameField.getText().contains(appData.get("firstname")));
                 ReusableMethods.waitFor(1);
-                Assert.assertEquals(2,3);
+//                Assert.assertTrue(false);
             }
         }
 
