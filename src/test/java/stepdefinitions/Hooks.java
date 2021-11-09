@@ -25,14 +25,14 @@ public class Hooks {
 
     @After
     public void tearDown(Scenario scenario) throws IOException {
-////        System.out.println("This is hooks after method");
-////        Getting the screenshot: getScreenshotAs method takes the screenshot
-        final byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
-//       Attaching the screenshot to the scenarios in the default-cucumber-reports.html
-
-        if (scenario.isFailed()) {
-            scenario.attach(screenshot, "image/png", "Screenshot");
-        }
+//////        System.out.println("This is hooks after method");
+//////        Getting the screenshot: getScreenshotAs method takes the screenshot
+//        final byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
+////       Attaching the screenshot to the scenarios in the default-cucumber-reports.html
+//
+//        if (scenario.isFailed()) {
+//            scenario.attach(screenshot, "image/png", "Screenshot");
+//        }
 
     }
 }
