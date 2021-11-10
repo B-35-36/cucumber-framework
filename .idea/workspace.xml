@@ -23,13 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81103430-53fb-4a27-80d0-e75f95e6dc83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/database_step_defs/Read_Step_Definitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DBUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/database_features/read.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/database_step_defs/Create_Step_Definitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/selenium_grid_step_defs/Selenium_Grid_Step_Defs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/database_features/create.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/selenium_grid_features/selenium_grid.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/database_step_defs/Read_Step_Definitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/database_step_defs/Read_Step_Definitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,15 +71,15 @@
       <recent name="$PROJECT_DIR$/src/test/resources/testdata" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: read">
-    <configuration name="Feature: read" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: selenium_grid">
+    <configuration name="Feature: create" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_features/read.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_features/create.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber-framework" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: read" />
+      <option name="SUGGESTED_NAME" value="Feature: create" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -91,15 +91,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC01_Read_hotel_room_information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: selenium_grid" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_features/read.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/selenium_grid_features/selenium_grid.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber-framework" />
-      <option name="NAME_FILTER" value="^TC01_Read_hotel_room_information$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_Read_hotel_room_information$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01_Read_hotel_room_information" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: selenium_grid" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -111,15 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC02_Read_hotel_reservation_information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC01_Create_Hotel_Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_features/read.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_features/create.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber-framework" />
-      <option name="NAME_FILTER" value="^TC02_Read_hotel_reservation_information$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC02_Read_hotel_reservation_information$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC02_Read_hotel_reservation_information" />
+      <option name="NAME_FILTER" value="^TC01_Create_Hotel_Test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_Create_Hotel_Test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01_Create_Hotel_Test" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -131,15 +130,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC03_Read_hotel_address_information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: verify_title_on_chrome" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/database_features/read.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/selenium_grid_features/selenium_grid.feature" />
       <option name="GLUE" value="stepdefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="cucumber-framework" />
-      <option name="NAME_FILTER" value="^TC03_Read_hotel_address_information$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC03_Read_hotel_address_information$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC03_Read_hotel_address_information" />
+      <option name="NAME_FILTER" value="^verify_title_on_chrome$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^verify_title_on_chrome$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: verify_title_on_chrome" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -168,10 +167,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: read" />
-        <item itemvalue="Cucumber Java.Scenario: TC03_Read_hotel_address_information" />
-        <item itemvalue="Cucumber Java.Scenario: TC02_Read_hotel_reservation_information" />
-        <item itemvalue="Cucumber Java.Scenario: TC01_Read_hotel_room_information" />
+        <item itemvalue="Cucumber Java.Feature: selenium_grid" />
+        <item itemvalue="Cucumber Java.Scenario: verify_title_on_chrome" />
+        <item itemvalue="Cucumber Java.Feature: create" />
+        <item itemvalue="Cucumber Java.Scenario: TC01_Create_Hotel_Test" />
         <item itemvalue="JUnit.Runner" />
       </list>
     </recent_temporary>
@@ -200,51 +199,52 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="486" y="496" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1635814502890">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="542" y="512" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636503794295">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state x="486" y="496" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1635814502890" />
     <state x="535" y="512" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/61.25.2499.1415@61.25.2499.1415" timestamp="1635084613524" />
+    <state x="542" y="512" key="#com.intellij.fileTypes.FileTypeChooser/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1636503794295" />
     <state x="981" y="570" width="597" height="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1635697372898">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="981" y="570" width="597" height="312" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635697372898" />
-    <state width="2508" height="658" key="GridCell.Tab.0.bottom" timestamp="1636426162573">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2014" height="378" key="GridCell.Tab.0.bottom" timestamp="1636513399364">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state width="2508" height="258" key="GridCell.Tab.0.bottom/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635698725345" />
-    <state width="2508" height="658" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1636426162573" />
+    <state width="2508" height="3" key="GridCell.Tab.0.bottom/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1636513287796" />
     <state width="1573" height="258" key="GridCell.Tab.0.bottom/2560.25.1920.1055/65.25.2495.1415@65.25.2495.1415" timestamp="1635699133972" />
     <state width="2297" height="225" key="GridCell.Tab.0.bottom/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1636425734680" />
     <state width="1541" height="211" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798009" />
-    <state width="2133" height="162" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1636304096416" />
-    <state width="2508" height="658" key="GridCell.Tab.0.center" timestamp="1636426162571">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2014" height="378" key="GridCell.Tab.0.bottom/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1636513399364" />
+    <state width="2014" height="378" key="GridCell.Tab.0.center" timestamp="1636513399363">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state width="2508" height="258" key="GridCell.Tab.0.center/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635698725343" />
-    <state width="2508" height="658" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1636426162571" />
+    <state width="2508" height="3" key="GridCell.Tab.0.center/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1636513287794" />
     <state width="1573" height="258" key="GridCell.Tab.0.center/2560.25.1920.1055/65.25.2495.1415@65.25.2495.1415" timestamp="1635699133971" />
     <state width="2297" height="225" key="GridCell.Tab.0.center/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1636425734654" />
     <state width="1541" height="211" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798008" />
-    <state width="2133" height="162" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1636304096413" />
-    <state width="2508" height="658" key="GridCell.Tab.0.left" timestamp="1636426162570">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2014" height="378" key="GridCell.Tab.0.center/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1636513399363" />
+    <state width="2014" height="378" key="GridCell.Tab.0.left" timestamp="1636513399363">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state width="2508" height="258" key="GridCell.Tab.0.left/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635698725342" />
-    <state width="2508" height="658" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1636426162570" />
+    <state width="2508" height="3" key="GridCell.Tab.0.left/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1636513287794" />
     <state width="1573" height="258" key="GridCell.Tab.0.left/2560.25.1920.1055/65.25.2495.1415@65.25.2495.1415" timestamp="1635699133971" />
     <state width="2297" height="225" key="GridCell.Tab.0.left/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1636425734634" />
     <state width="1541" height="211" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798007" />
-    <state width="2133" height="162" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1636304096413" />
-    <state width="2508" height="658" key="GridCell.Tab.0.right" timestamp="1636426162572">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2014" height="378" key="GridCell.Tab.0.left/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1636513399363" />
+    <state width="2014" height="378" key="GridCell.Tab.0.right" timestamp="1636513399364">
+      <screen x="69" y="25" width="2491" height="1415" />
     </state>
     <state width="2508" height="258" key="GridCell.Tab.0.right/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1635698725344" />
-    <state width="2508" height="658" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1636426162572" />
+    <state width="2508" height="3" key="GridCell.Tab.0.right/2560.25.1920.1055/0.0.2560.1440@0.0.2560.1440" timestamp="1636513287795" />
     <state width="1573" height="258" key="GridCell.Tab.0.right/2560.25.1920.1055/65.25.2495.1415@65.25.2495.1415" timestamp="1635699133972" />
     <state width="2297" height="225" key="GridCell.Tab.0.right/2560.25.1920.1055/67.25.2493.1415@67.25.2493.1415" timestamp="1636425734679" />
     <state width="1541" height="211" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@2560.25.1920.1055" timestamp="1635352798008" />
-    <state width="2133" height="162" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1636304096414" />
+    <state width="2014" height="378" key="GridCell.Tab.0.right/2560.25.1920.1055/69.25.2491.1415@69.25.2491.1415" timestamp="1636513399364" />
     <state x="216" y="262" key="SettingsEditor" timestamp="1635902549756">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

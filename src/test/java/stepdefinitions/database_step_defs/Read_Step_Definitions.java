@@ -3,7 +3,6 @@ package stepdefinitions.database_step_defs;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import utilities.DBUtils;
-import utilities.ReusableMethods;
 
 import java.sql.SQLException;
 
@@ -34,6 +33,11 @@ public class Read_Step_Definitions {
         DBUtils.getResultset().next();//I was on row 6 now I am on row 7
         Object columnData8 = DBUtils.getResultset().getObject(column);
         System.out.println(columnData8);//525.00
+
+//        We can get teh data as String as well
+        String columnDataAsString = DBUtils.getResultset().getString(column);
+//        Assert.assertTrue(columnDataAsString.contains("00"));
+        System.out.println(columnDataAsString);
 
 //        How to get all of the price column data
         while (DBUtils.getResultset().next()){
