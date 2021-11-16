@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import utilities.ConfigReader;
@@ -62,6 +63,34 @@ public class Selenium_Grid_Step_Defs {
     public void verify_the_title_includes_resortsline() {
         String title=driver.getTitle();
         Assert.assertTrue(title.contains("Resortsline"));
+    }
+
+    @Given("user is on the application_login page with firefox")
+    public void user_is_on_the_application_login_page_with_firefox() throws MalformedURLException {
+        DesiredCapabilities cap = new DesiredCapabilities();
+        cap.setBrowserName("firefox");
+        cap.setPlatform(Platform.ANY);
+
+        FirefoxOptions firefoxOptions = new FirefoxOptions();
+        firefoxOptions.merge(cap);
+
+        String hubURL="http://192.168.0.14:4446/wd/hub";
+        driver = new RemoteWebDriver(new URL(hubURL),firefoxOptions);
+
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+
+        driver.get(ConfigReader.getProperty("app_qa_environment"));
+        try{
+            ReusableMethods.waitFor(1);
+            driver.findElement(By.id("details-button")).click();
+            ReusableMethods.waitFor(1);
+            driver.findElement(By.id("proceed-link")).click();
+            ReusableMethods.waitFor(1);
+        }catch (Exception e){
+            System.out.println("Advanced Link and Proceed Link is not displayed");
+        }
+
     }
 }
 

@@ -1,11 +1,3 @@
-@selenium_grid
-Feature: verify_application_title
-  @grid_chrome
-  Scenario: verify_title_on_chrome
-    Given user is on the application_login page with chrome
-    Then verify the title includes Resortsline
-
-
 #  CHROME NODE REGISTER:
 #  java -Dwebdriver.chrome.driver="/Users/techproed/Documents/selenium libraries/drivers/chromedriver" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.0.14:4444/grid/register -port 4445
 #
@@ -75,3 +67,83 @@ Feature: verify_application_title
 #  How do you keep your driver up to date?
 #  The best code is WORKING code. So if the driver work then keep using it. If there is some exception related to driver, then update it from the company repository.
 #  ####################### ################### #################
+JENKINS
+*****WHAT IS JENKINS?
+-Jenkins is an CONTINUOUS INTEGRATION(continues deployment) tool.
+-CI(Continuous integration) / CD(Continuous deployment) tool.
+*****How do you use Jenkins as tester?
+-I use jenkins for running especially my smoke test.
+-My team get the reports every morning at 7:30 am.
+-If any failure in the reports, then I communicate with the the team.
+-Is your smoke test failed?
+    - I remember it failed a few times before.
+-How often it fails?
+    - around once every 2 months (maybe around once a month)
+-What can be the reason for smoke test to fail.
+    - Server might be down.
+    - URL might not be accesable(chaning the testing url)
+    - There might be an update on the existing code.(changing the login button, then locator changes. Or removing the password field, then password locator will fail)
+    - There might be a side affect of a new code.(While updating the dropdown values, making the dropdown not editable.(no longer dropdown options are visible))
+
+*****WHY DO YOU USE JENKINS?
+-We use Jenkins for continuous integration. Jenkins makes the deployment process easier. To facilitate the deployment process
+
+*****Prerequisites
+- installation
+- create an account
+- jenkins.war
+
+*****How to login Jenkins?
+1. Open terminal
+2. cd jenkins folder
+    - cd Documents
+    - cd jenkins
+Now we are in the jenkins folder
+3. Run the command:
+java -jar jenkins.war
+
+4. Go to the host url:
+http://localhost:8080/
+
+*****How to configure Jenkins?
+-Devops Engineers is responsible for jenkins configurations?
+1. Click on Manage Jenkins
+2. Click on Global Tool Configuration
+3. Click on JDK installations
+-Click on Install Automatically checkbox
+-Click on Please enter your username/password
+-Enter your oracle credentials(if you forgot or don't have, create an account)
+-Version : 9.0.4
+-Check I agree to the Java SE Development Kit License Agreement
+4. MAVEN INSTALLATION
+- Click Add Maven at the bottom of the page
+- Click on Install automatically checkbox
+- Version : 3.8.3
+5. Save Apply
+ DONE WITH GLOBAL CONFIGURATION
+***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
