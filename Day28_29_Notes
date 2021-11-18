@@ -86,7 +86,7 @@ JENKINS
     - There might be a side affect of a new code.(While updating the dropdown values, making the dropdown not editable.(no longer dropdown options are visible))
 
 *****WHY DO YOU USE JENKINS?
--We use Jenkins for continuous integration. Jenkins makes the deployment process easier. To facilitate the deployment process
+-We use Jenkins for continuous integration. Jenkins makes the deployment process easier. To facilitate the deployment process, i use jenkins
 
 *****Prerequisites
 - installation
@@ -106,7 +106,7 @@ java -jar jenkins.war
 http://localhost:8080/
 
 *****How to configure Jenkins?
--Devops Engineers is responsible for jenkins configurations?
+-Devops Engineers is responsible for jenkins configurations.
 1. Click on Manage Jenkins
 2. Click on Global Tool Configuration
 3. Click on JDK installations
@@ -120,8 +120,50 @@ http://localhost:8080/
 - Click on Install automatically checkbox
 - Version : 3.8.3
 5. Save Apply
- DONE WITH GLOBAL CONFIGURATION
+ DONE WITH GLOBAL CONFIGURATION. SO FAR DEVOPS ENGINEERS DOES THE GLOBAL SETTING AND CONFIGURATIONS
 ***
+*****How do you create Jenkins Jobs?
+1. Click on New Item
+2. Name : my_smoke_test_suite
+3. Click on Freestyle project and OK
+4. Click on GitHub project checkbox and give your project path
+https://github.com/B-35-36/cucumber-framework.git
+5. Source Code Management
+    - click on Git radio button
+    - https://github.com/B-35-36/cucumber-framework.git
+    - change */master as */main
+6. Build Triggers
+   -Build periodically -> we can add specific time to run jenkins automatically
+
+7. Build
+    -Invoke top-level Maven targets
+    -Goals: clean install
+    -POM  : pom.xml
+    -We add custom configuration, such as email notification,junit reports,... after test is complete.
+    -Click on add post build action
+    -Email notifications: Enter your email
+
+*****Email Set Up?
+-When you are on Dashboard:
+-Click on Manage Jenkins
+-Configure System
+-Search for           : E-mail Notification
+-SMTP server for gmail: smtp.gmail.com
+-SMTP server for yahoo: smtp-mail.outlook.com
+-Click on Advanced:
+-Use SMTP Authentication
+    -username: your email
+    -password: .....
+-Click on Use SSL
+-Click on SMTP Port: 465
+-Test configuration by sending test e-mail: enter your email
+
+    #######################################################
+*****How to run Jenkins jobs(How do you run tests on jenkins?)?
+1. CLick on Build Now button
+
+*****What is HVD?
+-Virtual Devices : Jenkins can be run on virtual devices such as AWS.
 
 
 
